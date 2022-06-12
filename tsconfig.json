@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+    ],
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "dist",
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "commonjs",
+    "jsx": "react-jsx",
+    "declaration": true,
+  },
+  "include": [
+    "src"
+  ]
+}

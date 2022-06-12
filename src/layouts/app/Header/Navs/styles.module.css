@@ -1,0 +1,7 @@
+.active_item:hover {
+    filter: brightness(90%);
+}
+
+.default_item:hover {
+    background-color: #00000012 !important;
+}

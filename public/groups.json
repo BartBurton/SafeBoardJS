@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Management",
+        "color": "#ff4500"
+    },
+    {
+        "id": 2,
+        "name": "Design",
+        "color": "#3ffffd"
+    },
+    {
+        "id": 3,
+        "name": "Art",
+        "color": "#26a641"
+    },
+    {
+        "id": 4,
+        "name": "Animation",
+        "color": "#5c67e1"
+    },
+    {
+        "id": 5,
+        "name": "Programming",
+        "color": "#fe4d96"
+    },
+    {
+        "id": 6,
+        "name": "Sound",
+        "color": "#fff688"
+    },
+    {
+        "id": 7,
+        "name": "QA",
+        "color": "#009fcf"
+    },
+    {
+        "id": 8,
+        "name": "Production",
+        "color": "#fd3434"
+    },
+    {
+        "id": 9,
+        "name": "IT",
+        "color": "#ff06b7"
+    },
+    {
+        "id": 10,
+        "name": "Marketing",
+        "color": "#f8b400"
+    },
+    {
+        "id": 11,
+        "name": "Research",
+        "color": "#24a19c"
+    }
+]

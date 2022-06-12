@@ -1,0 +1,114 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "react-hooks",
+        "prefer-arrow"
+    ],
+    "rules": {
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": [
+            "warn"
+        ],
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": [
+            "error"
+        ],
+        "no-empty-function": "off",
+        "@typescript-eslint/no-empty-function": [
+            "warn"
+        ],
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": [
+            "warn"
+        ],
+        "@typescript-eslint/ban-ts-comment": "off",
+        "react/prop-types": "warn",
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": [
+            "warn",
+            {
+                "extensions": [
+                    ".tsx"
+                ]
+            }
+        ],
+        "react/jsx-indent": [
+            "error",
+            4
+        ],
+        "react/jsx-indent-props": [
+            "error",
+            4
+        ],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/function-component-definition": [
+            "warn",
+            {
+                "namedComponents": "arrow-function",
+                "unnamedComponents": "arrow-function"
+            }
+        ],
+        "react/require-default-props": "warn",
+        "react/jsx-props-no-spreading": "off",
+        "react/no-unused-prop-types": "warn",
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "ts": "never",
+                "tsx": "never"
+            }
+        ],
+        "import/no-extraneous-dependencies": [
+            "off"
+        ],
+        "max-len": "off",
+        "indent": [
+            "error",
+            4
+        ],
+        "no-tabs": "off",
+        "semi": [
+            "error",
+            "never"
+        ],
+        "linebreak-style": "off",
+        "no-param-reassign": "off",
+        "no-multiple-empty-lines": "off",
+        "arrow-parens": "off",
+        "max-classes-per-file": "off",
+        "lines-between-class-members": "off",
+        "no-plusplus": "off",
+        "dot-notation": "off",
+        "no-nested-ternary": "off",
+        "object-curly-newline": "off",
+        "no-underscore-dangle": "off",
+        "no-useless-return": "off",
+        "no-case-declarations": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
+    }
+}

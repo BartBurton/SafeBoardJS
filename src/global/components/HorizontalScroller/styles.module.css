@@ -1,0 +1,50 @@
+.scroller-scroll {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    transition: all ease 0.5s;
+}
+
+.scroller-scroll::-webkit-scrollbar {
+    height: 0;
+}
+
+.scroller-viewer:hover {
+    animation: scroller 2s linear forwards;
+}
+
+@keyframes scroller {
+    0%,
+    2% {
+        margin-left: 0;
+    }
+
+    10% {
+        margin-left: -50px;
+    }
+
+    17% {
+        margin-left: 35px;
+    }
+
+    25% {
+        margin-left: -20px;
+    }
+
+    30% {
+        margin-left: 10px;
+    }
+
+    35% {
+        margin-left: -5px;
+    }
+
+    40%,
+    100% {
+        margin-left: 0;
+    }
+}
+
+.scroller-flex {
+    display: flex;
+    justify-content: center;
+}
